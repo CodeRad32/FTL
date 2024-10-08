@@ -1,5 +1,5 @@
 # escape_velocity
-Escape the universe code a script for the ride -> ))
+Escape the universe code a script for the ride -> )) out;
 
 ```py
 import numpy as np
