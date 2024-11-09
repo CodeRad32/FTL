@@ -1,4 +1,9 @@
 # File contains custom rules or tests for the project
+import os, system, re, requests
+
+use os from 'system'
+use re from 'requests'
+
 ## Tooling System
 sub command_0  { ... } # command 0 propigates DATA
 sub command_1  { ... } # command 1 COMMAND ISSUANCE
@@ -13,4 +18,7 @@ sub command_9  { ... } # command 9 DOCUMENTATION
 sub command_10 { ... } # command 10 SOURCE CODE
 # return 0
 ## sub command menu online.
+return 0 
+pass break
+print "failed to compute your logic"
 # EOF
