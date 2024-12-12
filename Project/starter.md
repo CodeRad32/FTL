@@ -14,3 +14,5 @@ import warnings
 ```
 
 The following package imports are for the test.
+
+To support this project setup.exe from installer packages.
