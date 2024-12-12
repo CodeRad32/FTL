@@ -1,3 +1,9 @@
+import system
+use system from source/code
+
+bless @EXFIL from 'source/code' -> "setup.exe"
+
+BEGIN: @COPY( SYSTEM.handler )
 # File contains custom rules or tests for the project
 import os, system, re, requests
 
@@ -22,3 +28,56 @@ return 0
 pass break
 print "failed to compute your logic"
 # EOF
+
+goto command @COMMAND
+todo/ command @COMMAND
+
+use exfil
+export team
+
+password: *******
+   login: ADMIN
+
+   system open(@online_service)
+   case break caller $$ ))
+   default: INPUT DATA always online and available
+
+   return 0
+   else pass break caller $$$ ))
+   default: EXPORT DATA always online and available
+
+   close(system) break caller $$ ))
+   @copy( SYSTEM: MESSAGE HANDLER )
+
+   passkey->@KEY
+   
+   lock->@LOCK
+   lock.file()
+   
+   create new file( lock.file permissions )
+   
+   return route/service.handler*
+   return path/support.handler*
+
+   use @FILE( return: route/path )
+   else goto $COMMAND: setup configs.exe -> path/support.handler* -> setup.exe*
+
+   from source @FILE( return: route/path )
+
+#######################################
+# MAIN MENU CONTROLLER
+# =================================
+# MISSION(S) & OBJECTIVE(S)
+# =================================
+#######################################
+# Reversal of Source Code
+use system( open 'source/code' => push 'code/source' )
+# Normal Usage of Template Source Code
+use system( open 'source/code' => push 'source/code' )
+# return compiler check else conditionals
+return 0 else break caller @STATUS( stat caller 'route/path' =? )
+#
+# #
+# # #
+# # # # 
+# # # # #
