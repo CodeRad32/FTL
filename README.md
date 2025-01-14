@@ -1,5 +1,8 @@
 # escape_velocity
-Escape the universe code a script for the ride -> )) out;
+Escape the universe code a script for the ride
+
+Below is advanced script about taking a ship and
+transporting it into another reality using logic
 
 ```py
 import numpy as np
@@ -45,3 +48,5 @@ for i in range(1000):
 print("Failed to escape the universe.")
 
 ```
+Please contribute to any repo of mine I would appreciate it or lets go in a different direction
+overall.
